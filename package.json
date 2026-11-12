@@ -1,0 +1,29 @@
+{
+  "name": "x-replyflow",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Free ($0) X/Twitter comment & reply queue assistant with oEmbed sourcing, smart/AI reply generation, and official X Web Intent launching — ready for Vercel.",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint",
+    "test": "tsx --test tests/x-utils.test.ts"
+  },
+  "dependencies": {
+    "lucide-react": "^0.475.0",
+    "next": "^15.5.29",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.17.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.19.3",
+    "typescript": "^5.7.3"
+  }
+}
